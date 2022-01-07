@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  page:
+    build:
+      context: .
+    command: "mkdocs serve -a 0.0.0.0:8000"
+    volumes:
+      - "./eva-docs-builder/:/app/eva-docs-builder"
+      - "./docs/:/app/docs"
+      - "./overrides/:/app/overrides"
+      - "./mkdocs.yml:/app/mkdocs.yml"
+      - "./database.db:/app/database.db"
+    ports:
+      - 8000:8000

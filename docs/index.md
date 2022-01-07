@@ -1,0 +1,7 @@
+---
+title: Index
+---
+
+# Fancy stuff
+
+

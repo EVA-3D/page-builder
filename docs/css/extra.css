@@ -1,0 +1,24 @@
+[data-md-color-scheme="slate"] {
+  --md-hue: 200; 
+}
+
+h2 {
+    clear: left;
+}
+
+.md-header {
+    background: #6ae100;
+    background: linear-gradient( 65deg, #6ae100 0%, #6ae100 30%, rgba(101, 105, 101, 1) 30.05%, rgba(101, 105, 101, 1) 100%);
+}
+
+.md-content__inner {
+    margin: 0 .8rem 0;
+}
+
+.md-content__inner> :last-child {
+    margin-bottom: 1rem;
+}
+
+.md-content__inner> :last-child img:not(.twemoji) {
+    margin-bottom: -1.4rem;
+}
